@@ -1,12 +1,7 @@
 # Table of contents
 
 * [Welcome to Flowise](README.md)
-* [Getting Started](getting-started/README.md)
-* [Contributing](CONTRIBUTING.md)
-* [Authorization](authorization/README.md)
-  * [Setting username & password](authorization/setting-username-and-password.md)
 * [How to Use](how-to-use/README.md)
-* [Environment Variables](environment-variables.md)
 * [Document Loaders](document-loaders.md)
 * [Chat Models](chat-models/README.md)
   * [ChatLocalAI](chat-models/chatlocalai.md)
