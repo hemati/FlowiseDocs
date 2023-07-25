@@ -1,4 +1,4 @@
-# Welcome to Flowise
+# Welcome to LangChain.Space
 
 <figure><img src=".gitbook/assets/flowise.gif" alt=""><figcaption></figcaption></figure>
 

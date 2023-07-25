@@ -1,6 +1,6 @@
 # How to Use
 
-Now that you have tested your chatflow with the chat interface on Flowise, you want to "export" it out to be able to use with other applications. Flowise provides 2 ways to do that:
+Now that you have tested your chatflow with the chat interface on LangChain.Space, you want to "export" it out to be able to use with other applications. LangChain.Space provides 2 ways to do that:
 
 * API
 * Embed
@@ -41,7 +41,7 @@ Watch how to connect to [FlutterFlow](https://flutterflow.io/)
 
 ## Streaming
 
-Flowise also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
+LangChain.Space also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
 
 <figure><img src="../.gitbook/assets/screely-1687030897806.png" alt=""><figcaption></figcaption></figure>
 
