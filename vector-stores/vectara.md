@@ -30,7 +30,7 @@
 
 <figure><img src="../.gitbook/assets/vectara/5.png" alt="" width="170"><figcaption></figcaption></figure>
 
-5. Back to Flowise canvas, drag and drop Vectara nodes. Click **Create New** from the Credentials dropdown:
+5. Back to LangChain.Space canvas, drag and drop Vectara nodes. Click **Create New** from the Credentials dropdown:
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="" width="563"><figcaption></figcaption></figure>
 

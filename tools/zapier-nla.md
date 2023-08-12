@@ -27,7 +27,7 @@
 
     <figure><img src="../.gitbook/assets/zapier/nla/4.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### Flowise
+### LangChain.Space
 
 1.  Go to **Marketplaces**, scroll to the very bottom and click **Zapier NLA**
 

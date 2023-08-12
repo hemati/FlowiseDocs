@@ -32,9 +32,9 @@ You'll be able to see a Discord message sent to the channel:
 
 Perfect! We have successfully configured a workflow that is able to pass a message and send to Discord channel [🎉 ](https://emojiterra.com/party-popper/)[🎉 ](https://emojiterra.com/party-popper/)
 
-## Flowise
+## LangChain.Space
 
-In Flowise, we are going to create a custom tool that is able to call the Webhook POST request, with the message body.
+In LangChain.Space, we are going to create a custom tool that is able to call the Webhook POST request, with the message body.
 
 &#x20;From the dashboard, click **Tools**, then click **Create**
 

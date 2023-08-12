@@ -1,5 +1,5 @@
 # Use Cases
 
-Some general use cases of how Flowise can be used.
+Some general use cases of how LangChain.Space can be used.
 
 * [Web Scrape QnA](web-scrape-qna.md)

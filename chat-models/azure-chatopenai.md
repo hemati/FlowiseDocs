@@ -37,7 +37,7 @@
 
 <figure><img src="../.gitbook/assets/azure/azure-general/2.png" alt=""><figcaption></figcaption></figure>
 
-### Flowise
+### LangChain.Space
 
 1. **Chat Models** > drag **Azure ChatOpenAI** node
 
@@ -51,7 +51,7 @@
 
 <figure><img src="../.gitbook/assets/azure/azure-chatopenai/5.png" alt="" width="563"><figcaption></figcaption></figure>
 
-4. Voila [🎉](https://emojipedia.org/party-popper/), you have created **Azure ChatOpenAI node** in Flowise
+4. Voila [🎉](https://emojipedia.org/party-popper/), you have created **Azure ChatOpenAI node** in LangChain.Space
 
 <figure><img src="../.gitbook/assets/azure/azure-general/5.png" alt=""><figcaption></figcaption></figure>
 

@@ -2,7 +2,7 @@
 
 [Zep](https://github.com/getzep/zep) is long-term memory store for LLM applications. It stores, summarizes, embeds, indexes, and enriches LLM app / chatbot histories, and exposes them via simple, low-latency APIs.
 
-It is suitable when you are using Flowise as API, and want the AI to remember conversations between different users. You can achieve that using **sessionId**.
+It is suitable when you are using LangChain.Space as API, and want the AI to remember conversations between different users. You can achieve that using **sessionId**.
 
 ## Deploy Zep
 
@@ -23,9 +23,9 @@ In this example, we are going to deploy to Render.
 
 <figure><img src="../.gitbook/assets/image (38) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Use in Flowise UI
+## Use in LangChain.Space UI
 
-1. Back to Flowise application, simply create a new canvas or use one of the template from marketplace. In this example, we are going to use **Simple Conversational Chain**
+1. Back to LangChain.Space application, simply create a new canvas or use one of the template from marketplace. In this example, we are going to use **Simple Conversational Chain**
 
 <figure><img src="../.gitbook/assets/Untitled (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -45,7 +45,7 @@ By default, the first chat message id will be used as **sessionId** for Zep Memo
 
 When chat history is cleared, all chat messages will be deleted. When user ask a new question, a new chat message is being saved with a new id. The id of that first new chat message will then be used as the new **sessionId**. As you can see from picture above, it does not remember user's name after the chat history is cleared.
 
-## Use in Flowise API
+## Use in LangChain.Space API
 
 To use as API, especially when multiple users are interacting with the flow, you can use **sessionId** to differentiate conversations between each user.
 

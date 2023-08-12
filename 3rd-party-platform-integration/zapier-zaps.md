@@ -3,7 +3,7 @@
 ## Prerequisite
 
 1. [Log in](https://zapier.com/app/login) or [sign up](https://zapier.com/sign-up) to Zapier
-2. Refer [deployment](../deployment/) to create a cloud hosted version of Flowise.
+2. Refer [deployment](../deployment/) to create a cloud hosted version of LangChain.Space.
 
 ## Setup
 
@@ -53,7 +53,7 @@
 
     <figure><img src="../.gitbook/assets/zapier/zap/13.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### FlowiseAI generate Result Message
+### LangChain.Space generate Result Message
 
 1.  Click **+**, click or search for **FlowiseAI**
 
