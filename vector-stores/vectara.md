@@ -50,7 +50,7 @@
 
 1. Ensure that a Vectara corpus with filters is already created.
 2. Upload documents with metadata to that corpus.
-3. Ensure that a Vectara component is created in Flowise.
+3. Ensure that a Vectara component is created in LangChain.Space.
 
 ### Setup
 
