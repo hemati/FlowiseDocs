@@ -17,7 +17,3 @@ Watch a quickstart demo (2mins)
 Watch a full demo (18mins)
 
 {% embed url="https://youtu.be/fn4GCZuiwdk?si=xeUH1RUqzgDmJ81U" %}
-
-## 🙌 Contributing
-
-See [contributing guide](CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
