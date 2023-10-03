@@ -7,3 +7,4 @@ Below are some of the chat models available to use in LangChain.Space:
 
 * [Azure ChatOpenAI](azure-chatopenai.md)
 * [ChatLocalAI](chatlocalai.md)
+* [GoogleVertexAI](google-vertexai.md)

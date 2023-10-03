@@ -23,7 +23,7 @@ docker-compose up -d --build
 
 5. If success, you will be able to see the docker images spun up:
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="390"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (3).png" alt="" width="390"><figcaption></figcaption></figure>
 
 ## Setup
 
@@ -37,7 +37,7 @@ docker-compose up -d --build
 * **Chroma Upsert Document** - Upsert document chunks with embeddings into Chroma
 * **Chroma Load Existing Index** - load existing collection from Chroma
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ### Additional
 
@@ -71,6 +71,8 @@ services:
             - DEBUG=${DEBUG}
             - DATABASE_PATH=${DATABASE_PATH}
             - APIKEY_PATH=${APIKEY_PATH}
+            - SECRETKEY_PATH=${SECRETKEY_PATH}
+            - FLOWISE_SECRETKEY_OVERWRITE=${FLOWISE_SECRETKEY_OVERWRITE}
             - LOG_PATH=${LOG_PATH}
             - LOG_LEVEL=${LOG_LEVEL}
             - EXECUTION_MODE=${EXECUTION_MODE}
@@ -93,7 +95,7 @@ networks:
 docker-compose up -d
 ```
 
-5. On the Chroma URL, specify [http://host.docker.internal:8000](http://host.docker.internal:8000/)
+5. On the Chroma URL, for Windows and MacOS Operating Systems specify [http://host.docker.internal:8000](http://host.docker.internal:8000/). For Linux based systems the default docker gateway should be used since host.docker.internal is not available: [http://172.17.0.1:8000](http://172.17.0.1:8000/)
 
 <figure><img src="../.gitbook/assets/image (10).png" alt="" width="563"><figcaption></figcaption></figure>
 

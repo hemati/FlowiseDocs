@@ -30,13 +30,13 @@ You'll be able to see a Discord message sent to the channel:
 
 <figure><img src="../.gitbook/assets/image (49).png" alt="" width="249"><figcaption></figcaption></figure>
 
-Perfect! We have successfully configured a workflow that is able to pass a message and send to Discord channel [🎉 ](https://emojiterra.com/party-popper/)[🎉 ](https://emojiterra.com/party-popper/)
+Perfect! We have successfully configured a workflow that is able to pass a message and send to Discord channel [🎉 ](https://emojiterra.com/party-popper/)[🎉](https://emojiterra.com/party-popper/)
 
 ## LangChain.Space
 
 In LangChain.Space, we are going to create a custom tool that is able to call the Webhook POST request, with the message body.
 
-&#x20;From the dashboard, click **Tools**, then click **Create**
+From the dashboard, click **Tools**, then click **Create**
 
 <figure><img src="../.gitbook/assets/screely-1691758397783.png" alt=""><figcaption></figcaption></figure>
 
@@ -45,7 +45,7 @@ We can then fill in the following fields (feel free to change this according to 
 * **Tool Name**: make\_webhook
 * **Tool Description**: Useful when you need to send message to Discord
 * **Tool Icon Src**: [https://github.com/FlowiseAI/Flowise/assets/26460777/517fdab2-8a6e-4781-b3c8-fb92cc78aa0b](https://github.com/FlowiseAI/Flowise/assets/26460777/517fdab2-8a6e-4781-b3c8-fb92cc78aa0b)
-* **Output Schema**:&#x20;
+* **Output Schema**:
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
@@ -104,3 +104,17 @@ Go to the Discord channel, and you will be able to see the message:
 <figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 That's it! OpenAI Function Agent will be able to automatically figure out what to pass as the message and send it over to Discord. This is just a quick example of how to trigger a webhook workflow with dynamic body. The same idea can be applied to workflow that has a webhook and Gmail, GoogleSheets etc.
+
+## Tutorials
+
+* Watch a step-by-step instruction video on using Webhooks with Flowise custom tools.
+
+{% embed url="https://youtu.be/_K9xJqEgnrU" %}
+
+* Watch how to connect Flowise to Google Sheets using webhooks
+
+{% embed url="https://youtu.be/fehXLdRLJFo" %}
+
+* Watch how to connect Flowise to Microsoft Excel using webhooks
+
+{% embed url="https://youtu.be/cB2GC8JznJc" %}
