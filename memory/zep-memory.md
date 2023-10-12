@@ -2,7 +2,7 @@
 
 [Zep](https://github.com/getzep/zep) is long-term memory store for LLM applications. It stores, summarizes, embeds, indexes, and enriches LLM app / chatbot histories, and exposes them via simple, low-latency APIs.
 
-It is suitable when you are using Flowise as API, and want the AI to remember conversations between different users. You can achieve that using **sessionId**.
+It is suitable when you are using LangFlux as API, and want the AI to remember conversations between different users. You can achieve that using **sessionId**.
 
 ## Deploy Zep
 
@@ -124,7 +124,7 @@ ZEP_AUTH_REQUIRED=true
 ZEP_AUTH_SECRET=<the secret you generated above>
 ```
 
-#### 3. Configure Credential on Flowise <a href="#2-configure-auth-environment-variables" id="2-configure-auth-environment-variables"></a>
+#### 3. Configure Credential on LangFlux <a href="#2-configure-auth-environment-variables" id="2-configure-auth-environment-variables"></a>
 
 Add a new credential for Zep, and put in the JWT Token in the API Key field:
 

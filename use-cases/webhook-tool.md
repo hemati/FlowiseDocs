@@ -32,9 +32,9 @@ You'll be able to see a Discord message sent to the channel:
 
 Perfect! We have successfully configured a workflow that is able to pass a message and send to Discord channel [🎉 ](https://emojiterra.com/party-popper/)[🎉](https://emojiterra.com/party-popper/)
 
-## LangChain.Space
+## LangFlux
 
-In LangChain.Space, we are going to create a custom tool that is able to call the Webhook POST request, with the message body.
+In LangFlux, we are going to create a custom tool that is able to call the Webhook POST request, with the message body.
 
 From the dashboard, click **Tools**, then click **Create**
 
@@ -107,14 +107,14 @@ That's it! OpenAI Function Agent will be able to automatically figure out what t
 
 ## Tutorials
 
-* Watch a step-by-step instruction video on using Webhooks with Flowise custom tools.
+* Watch a step-by-step instruction video on using Webhooks with LangFlux custom tools.
 
 {% embed url="https://youtu.be/_K9xJqEgnrU" %}
 
-* Watch how to connect Flowise to Google Sheets using webhooks
+* Watch how to connect LangFlux to Google Sheets using webhooks
 
 {% embed url="https://youtu.be/fehXLdRLJFo" %}
 
-* Watch how to connect Flowise to Microsoft Excel using webhooks
+* Watch how to connect LangFlux to Microsoft Excel using webhooks
 
 {% embed url="https://youtu.be/cB2GC8JznJc" %}

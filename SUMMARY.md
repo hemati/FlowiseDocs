@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to LangChain.Space](README.md)
+* [Welcome to LangFlux](README.md)
 * [How to Use](how-to-use/README.md)
 * [Document Loaders](document-loaders.md)
 * [Chat Models](chat-models/README.md)

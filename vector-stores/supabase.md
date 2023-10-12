@@ -7,7 +7,7 @@
 
     <figure><img src="../.gitbook/assets/image (8) (2) (1).png" alt=""><figcaption></figcaption></figure>
 3.  Input required fields\
-    **Name**, name of the project to be created. (e.g. LangChain.Space)\
+    **Name**, name of the project to be created. (e.g. LangFlux)\
     **Database** Password, password to your postgres database. (e.g. click **Generate a password**)\\
 
     <figure><img src="../.gitbook/assets/image (25) (1).png" alt=""><figcaption></figcaption></figure>

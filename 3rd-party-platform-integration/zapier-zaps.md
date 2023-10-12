@@ -3,7 +3,7 @@
 ## Prerequisite
 
 1. [Log in](https://zapier.com/app/login) or [sign up](https://zapier.com/sign-up) to Zapier
-2. Refer [deployment](../deployment/) to create a cloud hosted version of LangChain.Space.
+2. Refer [deployment](../deployment/) to create a cloud hosted version of LangFlux.
 
 ## Setup
 
@@ -53,15 +53,15 @@
 
     <figure><img src="../.gitbook/assets/zapier/zap/13.png" alt="" width="563"><figcaption></figcaption></figure>
 
-### LangChain.Space generate Result Message
+### LangFlux generate Result Message
 
-1.  Click **+**, click or search for **FlowiseAI**
+1.  Click **+**, click or search for **LangFlux**
 
     <figure><img src="../.gitbook/assets/zapier/zap/14.png" alt="" width="563"><figcaption></figcaption></figure>
 2.  Select **Make Prediction** as Event, then click **Continue**
 
     <figure><img src="../.gitbook/assets/zapier/zap/15.png" alt="" width="563"><figcaption></figcaption></figure>
-3.  Click **Sign in** and insert your details, then click **Yes, Continue to FlowiseAI**
+3.  Click **Sign in** and insert your details, then click **Yes, Continue to LangFlux**
 
     <figure><img src="../.gitbook/assets/zapier/zap/16.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -84,7 +84,7 @@
 3.  Select the Discord's account that you signed in, then click **Continue**
 
     <figure><img src="../.gitbook/assets/zapier/zap/22.png" alt="" width="563"><figcaption></figcaption></figure>
-4.  Select your prefered Channel for channel and select **Text** and **String Source** (if available) from FlowiseAI for Message Text, then click **Continue**
+4.  Select your prefered Channel for channel and select **Text** and **String Source** (if available) from LangFlux for Message Text, then click **Continue**
 
     <figure><img src="../.gitbook/assets/zapier/zap/23.png" alt="" width="563"><figcaption></figcaption></figure>
 5.  Click **Test action**

@@ -35,7 +35,7 @@
 
 <figure><img src="../.gitbook/assets/azure/azure-openai-embeddings/2.png" alt=""><figcaption></figcaption></figure>
 
-### LangChain.Space
+### LangFlux
 
 1. **Embeddings** > drag **Azure OpenAI Embeddings** node
 
@@ -49,7 +49,7 @@
 
 <figure><img src="../.gitbook/assets/azure/azure-openai-embeddings/5.png" alt="" width="554"><figcaption></figcaption></figure>
 
-4. Voila [🎉](https://emojipedia.org/party-popper/), you have created **Azure OpenAI Embeddings node** in LangChain.Space
+4. Voila [🎉](https://emojipedia.org/party-popper/), you have created **Azure OpenAI Embeddings node** in LangFlux
 
 <figure><img src="../.gitbook/assets/azure/azure-general/5.png" alt=""><figcaption></figcaption></figure>
 

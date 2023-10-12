@@ -41,7 +41,7 @@ docker-compose up -d --build
 
 ### Additional
 
-If you are running both LangChain.Space and Chroma on Docker, there are additional steps involved.
+If you are running both LangFlux and Chroma on Docker, there are additional steps involved.
 
 1. Spin up Chroma docker first
 
@@ -49,7 +49,7 @@ If you are running both LangChain.Space and Chroma on Docker, there are addition
 docker-compose up -d --build
 ```
 
-2. Open `docker-compose.yml` in LangChain.Space
+2. Open `docker-compose.yml` in LangFlux
 
 ```bash
 cd Flowise && cd docker
@@ -89,7 +89,7 @@ networks:
         external: true
 ```
 
-4. Spin up LangChain.Space docker image
+4. Spin up LangFlux docker image
 
 ```bash
 docker-compose up -d
