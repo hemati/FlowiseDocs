@@ -1,11 +1,11 @@
 # Table of contents
 
 * [Welcome to LangFlux](README.md)
+* [How to Use](how-to-use/README.md)
 * [Cache](cache/README.md)
   * [InMemory Cache](cache/in-memory-cache.md)
 * [Chains](chains/README.md)
   * [Conversaltional Retrieval QA Chain](chains/conversational-retrieval-qa-chain.md)
-* [How to Use](how-to-use/README.md)
 * [Document Loaders](document-loaders.md)
   * [S3 File Loader](document-loaders/s3-file-loader.md)
   * [PDF Files](document-loaders/pdf-file.md)
