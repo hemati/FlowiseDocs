@@ -4,7 +4,7 @@
 
 [**LocalAI** ](https://github.com/go-skynet/LocalAI)is a drop-in replacement REST API that’s compatible with OpenAI API specifications for local inferencing. It allows you to run LLMs (and not only) locally or on-prem with consumer grade hardware, supporting multiple model families that are compatible with the ggml format.
 
-To use LocalAI Embeddings within LangChain.Space, follow the steps below:
+To use LocalAI Embeddings within LangFlux, follow the steps below:
 
 1. ```bash
    git clone https://github.com/go-skynet/LocalAI
@@ -32,7 +32,7 @@ curl http://localhost:8080/v1/embeddings -H "Content-Type: application/json" -d 
 
 <figure><img src="../.gitbook/assets/image (29).png" alt="" width="375"><figcaption></figcaption></figure>
 
-## LangChain.Space Setup
+## LangFlux Setup
 
 Drag and drop a new LocalAIEmbeddings component to canvas:
 

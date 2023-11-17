@@ -52,9 +52,9 @@ ufw status numbered
 
 If using Digital ocean separate firewall from dashboard, make sure port 8000 is added there too
 
-## Use in LangFlux.Space UI
+## Use in LangFlux UI
 
-1. Back to LangFlux.Space application, simply create a new canvas or use one of the template from marketplace. In this example, we are going to use **Simple Conversational Chain**
+1. Back to LangFlux application, simply create a new canvas or use one of the template from marketplace. In this example, we are going to use **Simple Conversational Chain**
 
 <figure><img src="../../.gitbook/assets/Untitled (3) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -107,7 +107,7 @@ ZEP_AUTH_REQUIRED=true
 ZEP_AUTH_SECRET=<the secret you generated above>
 ```
 
-#### 3. Configure Credential on Flowise <a href="#2-configure-auth-environment-variables" id="2-configure-auth-environment-variables"></a>
+#### 3. Configure Credential on LangFlux <a href="#2-configure-auth-environment-variables" id="2-configure-auth-environment-variables"></a>
 
 Add a new credential for Zep, and put in the JWT Token in the API Key field:
 

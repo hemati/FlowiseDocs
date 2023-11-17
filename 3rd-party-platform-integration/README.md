@@ -1,5 +1,5 @@
 # 3rd Party Platform Integration
 
-LangChain.Space can be used in 3rd party platform. Here are some usage examples:
+LangFlux can be used in 3rd party platform. Here are some usage examples:
 
 * [Zapier Zaps](zapier-zaps.md)

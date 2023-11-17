@@ -1,6 +1,6 @@
 # How to Use
 
-Now that you have tested your chatflow with the chat interface on LangChain.Space, you want to "export" it out to be able to use with other applications. LangChain.Space provides 2 ways to do that:
+Now that you have tested your chatflow with the chat interface on LangFlux, you want to "export" it out to be able to use with other applications. LangFlux provides 2 ways to do that:
 
 * API
 * Embed
@@ -85,7 +85,7 @@ output = query(form_data)
 print(output)
 ```
 
-Watch how to use Flowise API
+Watch how to use LangFlux API
 
 {% embed url="https://youtu.be/LhN560DhlzU" %}
 
@@ -109,7 +109,7 @@ Watch how to connect to [Bubble](https://bubble.io/)
 
 ## Streaming
 
-LangChain.Space also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
+LangFlux also support streaming back to your front end application when the final node is a **Chain** or **OpenAI Function Agent.**
 
 <figure><img src="../.gitbook/assets/screely-1687030897806.png" alt=""><figcaption></figcaption></figure>
 
@@ -219,7 +219,7 @@ You can also customize your own embedded chat widget UI and pass **chatflowConfi
 To modify the full source code of embedded chat widget, follow these steps:
 
 1. Fork the [Flowise Chat Embed](https://github.com/FlowiseAI/FlowiseChatEmbed) repository
-2. Then you can make any code changes. One of the popular ask is to remove LangChain.Space [branding](https://github.com/HenryHengZJ/FlowiseChatEmbed-Test/blob/main/src/components/Bot.tsx#L337).
+2. Then you can make any code changes. One of the popular ask is to remove LangFlux [branding](https://github.com/HenryHengZJ/FlowiseChatEmbed-Test/blob/main/src/components/Bot.tsx#L337).
 3. Run `yarn build`
 4. Push changes to the forked repo
 5. You can then use it as embedded chat like so:
@@ -247,7 +247,7 @@ Replace `username` to your Github username, and `forked-repo` to your forked rep
 </script>
 ```
 
-Watch how to embed LangChain.Space in a Bootstrap 5 website
+Watch how to embed LangFlux in a Bootstrap 5 website
 
 {% embed url="https://youtu.be/4paQ2wObDQ4" %}
 

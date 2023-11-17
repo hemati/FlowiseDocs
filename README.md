@@ -1,14 +1,14 @@
-# Welcome to LangChain.Space
+# Welcome to LangFlux
 
 <figure><img src=".gitbook/assets/flowise.gif" alt=""><figcaption></figcaption></figure>
 
-Docs for LangChain.Space - Drag & drop UI to build your customized LLM flow
+Docs for LangFlux - Drag & drop UI to build your customized LLM flow
 
-## [🤔](https://emojipedia.org/thinking-face/) What is LangChain.Space?
+## [🤔](https://emojipedia.org/thinking-face/) What is LangFlux?
 
-LangChain.Space is a low-code/no-code drag & drop tool with the aim to make it easy for people to visualize and build LLM apps.
+LangFlux is a low-code/no-code drag & drop tool with the aim to make it easy for people to visualize and build LLM apps.
 
-LangChain.Space is built on top of [LangChainJS](https://github.com/hwchase17/langchainjs).
+LangFlux is built on top of [LangChainJS](https://github.com/hwchase17/langchainjs) and [FlowiseAI](https://github.com/FlowiseAI/Flowise).
 
 Watch a quickstart demo (2mins)
 

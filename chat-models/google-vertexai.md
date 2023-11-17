@@ -59,7 +59,7 @@ gcloud auth application-default login
 If you are using a GCP service like Cloud Run, or if you have installed default credentials on your local machine, you do not need to set this credential.
 
 ### With credential file
-1. Go to Credential page on Flowise and click **"Add credential"**
+1. Go to Credential page on LangFlux and click **"Add credential"**
 2. Click Google Vertex Auth
 
 <figure><img src="../.gitbook/assets/gcp_credential/google_vertex_auth.png" alt="" width="563"><figcaption></figcaption></figure>
@@ -74,7 +74,7 @@ If you are using a GCP service like Cloud Run, or if you have installed default 
   * Or you can copy all text in the credential file and paste it into `Google Credential JSON Object`
 
 4. Finally, click "Add" button.
-5. **🎉**You can now use ChatGoogleVertexAI with the credential in Flowise now!
+5. **🎉**You can now use ChatGoogleVertexAI with the credential in LangFlux now!
 
 
 ### Resources

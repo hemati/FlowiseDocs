@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to LangChain.Space](README.md)
+* [Welcome to LangFlux](README.md)
 * [How to Use](how-to-use/README.md)
 * [Cache](cache/README.md)
   * [InMemory Cache](cache/in-memory-cache.md)

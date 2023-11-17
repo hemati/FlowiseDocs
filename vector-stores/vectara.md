@@ -34,7 +34,7 @@
 
 <figure><img src="../.gitbook/assets/vectara/5.png" alt="" width="170"><figcaption></figcaption></figure>
 
-5. Back to LangChain.Space canvas, drag and drop Vectara nodes. Click **Create New** from the Credentials dropdown:
+5. Back to LangFlux canvas, drag and drop Vectara nodes. Click **Create New** from the Credentials dropdown:
 
 <figure><img src="../.gitbook/assets/vectara/6.png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -50,7 +50,7 @@
 
 1. Ensure that a Vectara corpus with filters is already created.
 2. Upload documents with metadata to that corpus.
-3. Ensure that a Vectara component is created in LangChain.Space.
+3. Ensure that a Vectara component is created in LangFlux.
 
 ### Setup
 
