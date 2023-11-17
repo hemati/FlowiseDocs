@@ -7,6 +7,8 @@ Now that you have tested your chatflow with the chat interface on LangChain.Spac
 
 ## API
 
+### Prediction API
+
 You can use the chatflow as API and connect to frontend applications.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
@@ -19,12 +21,15 @@ An example of API call using Postman:
 
 <figure><img src="../.gitbook/assets/image (9) (2).png" alt=""><figcaption></figcaption></figure>
 
-<table><thead><tr><th width="161">Key</th><th>Description</th><th>Type</th><th>Required</th></tr></thead><tbody><tr><td>question</td><td>User's question</td><td>string</td><td>Yes</td></tr><tr><td>overrideConfig</td><td>Override existing flow configuration</td><td>object</td><td>No</td></tr><tr><td>history</td><td>Provide list of history messages to the flow</td><td>array</td><td>No</td></tr></tbody></table>
+<table><thead><tr><th width="161">Key</th><th>Description</th><th>Type</th><th>Required</th></tr></thead><tbody><tr><td>question</td><td>User's question</td><td>string</td><td>Yes</td></tr><tr><td>overrideConfig</td><td>Override existing flow configuration</td><td>object</td><td>No</td></tr><tr><td>history</td><td>Provide list of history messages to the flow. Only works when using <a href="../memory/short-term-memory.md">Short Term Memory</a></td><td>array</td><td>No</td></tr></tbody></table>
 
 ```json
 // Example body request
 {
     "question": "What's my name?",
+    "overrideConfig": {
+        "returnSourceDocuments": true
+    },
     "history": [
         {
             "message": "Hello, how can I assist you?",
@@ -38,16 +43,13 @@ An example of API call using Postman:
             "type": "apiMessage",
             "message": "Hello Bob! how can I assist you?"
         }
-    ],
-    "overrideConfig": {
-        "returnSourceDocuments": true
-    }
+    ]
 }
 ```
 
 #### Flow with Document Loaders
 
-If the flow contains [Document Loaders](../document-loaders.md), the API looks slightly different. Instead of passing as **JSON** body, **form-data** is being used. This allows you to upload any files to the API.
+If the flow contains [Document Loaders](../document-loaders/), the API looks slightly different. Instead of passing as **JSON** body, **form-data** is being used. This allows you to upload any files to the API.
 
 Note: It is user's responsibility to make sure the file type is compatible with the expected file type from document loader. For example, if a Text File Loader is being used, you should only upload file with `.txt` extension.
 
@@ -90,6 +92,20 @@ Watch how to use Flowise API
 Watch how to connect to [Bubble](https://bubble.io/)
 
 {% embed url="https://youtu.be/kOwmPe8aLAA" %}
+
+### Message API
+
+* GET `/api/v1/chatmessage/{your-chatflowid}`
+* DELETE `/api/v1/chatmessage/{your-chatflowid}`
+
+| Query Param | Type   | Value       |
+| ----------- | ------ | ----------- |
+| sessionId   | string |             |
+| sort        | enum   | ASC or DESC |
+| startDate   | string |             |
+| endDate     | string |             |
+
+
 
 ## Streaming
 
