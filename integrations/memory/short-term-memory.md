@@ -1,8 +1,8 @@
 # Short Term Memory
 
-Short Term Memory in Flowise refers to ephemeral memory nodes that are only capable of storing past conversations in RAM. It simply stores the conversations in an array. When Flowise instance got restarted, everything will be lost.
+Short Term Memory in LangFlux refers to ephemeral memory nodes that are only capable of storing past conversations in RAM. It simply stores the conversations in an array. When Flowise instance got restarted, everything will be lost.
 
-There are 3 short term memory nodes in Flowise:
+There are 3 short term memory nodes in LangFlux:
 
 * BufferMemory
 * BufferWindowMemory
@@ -30,7 +30,7 @@ This uses a LLM to create a summary of the conversations. It is useful for conde
 
 ### UI & Embedded Chat
 
-By default, UI and Embedded Chat will automatically separate different users conversations. This is done by providing a list of `history` to the API. That logic is handled under the hood by Flowise.
+By default, UI and Embedded Chat will automatically separate different users conversations. This is done by providing a list of `history` to the API. That logic is handled under the hood by LangFlux.
 
 ### Prediction API
 

@@ -1,8 +1,8 @@
 # Long Term Memory
 
-Long Term Memory in Flowise refers to memory nodes that are capable of persisting past conversations, that can be later retrieved to resume the conversation. This allows the conversations for different users to be isolated.
+Long Term Memory in LangFlux refers to memory nodes that are capable of persisting past conversations, that can be later retrieved to resume the conversation. This allows the conversations for different users to be isolated.
 
-There are 5 short term memory nodes in Flowise:
+There are 5 short term memory nodes in LangFlux:
 
 * DynamoDB Chat Memory
 * Motorhead Memory
@@ -16,13 +16,13 @@ There are 5 short term memory nodes in Flowise:
 
 ### UI & Embedded Chat
 
-By default, UI and Embedded Chat will automatically separate different users conversations. This is done by generating a unique **`chatId`** for each new interaction. That logic is handled under the hood by Flowise.
+By default, UI and Embedded Chat will automatically separate different users conversations. This is done by generating a unique **`chatId`** for each new interaction. That logic is handled under the hood by LangFlux.
 
 ### Prediction API
 
 You can separate the conversations for multiple users by specifying a unique **`sessionId`**
 
-1. Use one of the long term memory nodes on Flowise. Make sure the node has the input parameter **`Session ID`**
+1. Use one of the long term memory nodes on LangFlux. Make sure the node has the input parameter **`Session ID`**
 
 <figure><img src="../../../.gitbook/assets/image (76).png" alt="" width="563"><figcaption></figcaption></figure>
 

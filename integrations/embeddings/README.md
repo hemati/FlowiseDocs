@@ -13,7 +13,7 @@ They are commonly used for:
 * Diversity measurement (where similarity distributions are analyzed)
 * Classification (where text strings are classified by their most similar label)
 
-Below are some of the embedding models available to use in Flowise:
+Below are some of the embedding models available to use in LangFlux:
 
 * [Azure OpenAI Embeddings](azure-openai-embeddings.md)
 * [LocalAI Embeddings](localai-embeddings.md)

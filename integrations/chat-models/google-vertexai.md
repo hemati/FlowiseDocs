@@ -51,7 +51,7 @@ gcloud auth application-default login
 
 <figure><img src="../../.gitbook/assets/gcp_credential/create_key.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Flowise
+## LangFlux
 
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
