@@ -184,10 +184,10 @@ Query Parameters
 
 ### Tutorials
 
-* How to use Flowise API
+* How to use LangFlux API
 
 {% embed url="https://youtu.be/LhN560DhlzU" %}
 
-* How to use Flowise API and connect to [Bubble](https://bubble.io/)
+* How to use LangFlux API and connect to [Bubble](https://bubble.io/)
 
 {% embed url="https://youtu.be/kOwmPe8aLAA" %}

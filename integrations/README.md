@@ -1,6 +1,6 @@
 # Integrations
 
-In Flowise, nodes are referred to as integrations. Similar to LEGO, you can build a customized LLM ochestration flow, a chatbot, an agent with all the integrations available in Flowise.
+In LangFlux, nodes are referred to as integrations. Similar to LEGO, you can build a customized LLM ochestration flow, a chatbot, an agent with all the integrations available in LangFlux.
 
 * [Cache](cache/)
 * [Chains](chains/)

@@ -51,7 +51,7 @@ gcloud auth application-default login
 
 <figure><img src="../../.gitbook/assets/gcp_credential/create_key.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## Flowise
+## LangFlux
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -60,6 +60,7 @@ gcloud auth application-default login
 If you are using a GCP service like Cloud Run, or if you have installed default credentials on your local machine, you do not need to set this credential.
 
 ### With credential file
+
 1. Go to Credential page on LangFlux and click **"Add credential"**
 2. Click Google Vertex Auth
 

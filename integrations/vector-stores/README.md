@@ -8,6 +8,6 @@ A vector store or vector database refers to a type of database system that speci
 * [Vectara](vectara.md)
 * [SingleStore](singlestore.md)
 
-Watch an intro on Vector Stores and how you can use that on Flowise
+Watch an intro on Vector Stores and how you can use that on LangFlux
 
 {% embed url="https://youtu.be/m0nr1_pnAxc" %}
