@@ -6,7 +6,7 @@ There are 5 short term memory nodes in LangFlux:
 
 * DynamoDB Chat Memory
 * Motorhead Memory
-* Redis Chat Memory
+* [Redis Chat Memory](broken-reference)
 * Upstash Chat Memory
 * [Zep Memory](zep-memory.md)
 

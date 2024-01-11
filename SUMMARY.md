@@ -35,7 +35,6 @@
     * [Character Text Splitter](integrations/text-splitters/character-text-splitter.md)
   * [Tools](integrations/tools/README.md)
     * [Custom Tool](integrations/tools/custom-tool.md)
-    * [Zapier NLA](integrations/tools/zapier-nla.md)
   * [Vector Stores](integrations/vector-stores/README.md)
     * [Chroma](integrations/vector-stores/chroma.md)
     * [Pinecone](integrations/vector-stores/pinecone.md)
